@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@use 'queries';
+
+#wraper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  margin-top: 6%;
+  margin-left: 17%;
+  margin-right: 17%;
+  min-height: 500px;
+  border-radius: 10px;
+    .caja {
+        display: flex;
+        flex-flow: column wrap;
+        width: 30%;
+        align-items: flex-start;
+
+        .logo {
+          padding-top: 15%;
+          align-self: left;
+          padding-left: 15%;
+        }
+
+        .boton {
+          /*general rules*/
+          margin-top: 26%;
+          margin-left: 15%;
+          border-radius: 20px;
+          width: 40%;
+          text-align: center;
+          background-color: white;
+          font-size: 17px;
+          font-family: arial;
+          padding: 12px;
+          transition: all 300ms;
+          /*las reglas de las animaciones se aplican en función de cada caja en particular*/
+
+            a {
+              text-decoration: none;
+              transition: all 300ms;
+            }
+        }
+
+        p {
+          min-height: 30%;
+          margin: 0px auto;
+          margin-left: 15%;
+          text-align: justify;
+          color: white;
+          font-size: 16px;
+          line-height: 25px;
+        }
+
+        h2 {
+          margin-left: 15%;
+          color: white;
+          text-transform: uppercase;
+          font-weight: bolder;
+          font-size: 30px;
+        }
+    }
+}
+
+
+
+
+
+.boton {
+  /*general rules*/
+  margin-top: 26%;
+  margin-left: 15%;
+  border-radius: 20px;
+  width: 40%;
+  text-align: center;
+  background-color: white;
+  font-size: 17px;
+  font-family: arial;
+  padding: 12px;
+  transition: all 300ms;
+  /*las reglas de las animaciones se aplican en función de cada caja en particular*/
+}
+
+
+
+
+#wraper .caja .boton:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+/*color y bordes, y animación*/
+.first {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #e28525;
+}
+
+.first .boton a {
+  color: #e28525;
+}
+
+.first .boton:hover a {
+  color: white;
+}
+
+.first .boton:hover {
+  border-radius: 0px;
+  background-color: #e28525 !important;
+  border: 1px solid white;
+}
+
+.second {
+  border-radius: 0px;
+  background-color: #016972;
+}
+
+.second .boton a {
+  color: #016972;
+}
+
+.second .boton:hover a {
+  color: white;
+}
+
+.second .boton:hover {
+  border-radius: 0px;
+  background-color: #016972 !important;
+  border: 1px solid white;
+}
+
+.three {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #00403f;
+}
+
+.three .boton a {
+  color: #00403f;
+}
+
+.three .boton:hover a {
+  color: white;
+}
+
+.three .boton:hover {
+  border-radius: 0px;
+  background-color: #00403f !important;
+  border: 1px solid white;
+}
+
+/*hover en botones*/
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=estilos.scss.map */
+
+
+
+
